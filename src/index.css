@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #071508;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
