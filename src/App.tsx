@@ -645,7 +645,7 @@ export default function App() {
       </section>
 
       {/* SHOP BY CATEGORY SECTION */}
-      <section className="relative z-20 w-full px-6 md:px-12 pt-[200px] pb-20">
+      <section className="relative z-20 w-full px-6 md:px-12 pt-[600px] pb-20">
         <div className="max-w-[1440px] mx-auto">
           {/* Header Row: Title, Animated Divider Line, View All */}
           <motion.div
